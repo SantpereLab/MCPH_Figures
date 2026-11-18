@@ -14,6 +14,10 @@ To reproduce the figures, you will need R version 4.6.2 installed along with the
 ### Figure 1: MCPH Gene Functions (Binary Dot Plot)
 This script creates a binary dot plot to visualize which specific functional pathways each MCPH-associated gene is involved in, dynamically grouping them into two main blocks ("Cell Division-Related Processes" and "Other Functions & Pathways").
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ceb2a311-947c-425c-9292-af93703fb328" width="600">
+</div>
+
 
 
 ### General Preview 
