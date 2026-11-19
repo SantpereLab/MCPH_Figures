@@ -8,6 +8,8 @@ Repository containing scripts and publication-ready figures for the MCPH genes p
 To reproduce the figures, you will need R version 4.6.2 installed along with the following packages:
 ### Figure 1
 * `ggplot2`, `dplyr`, `readxl`, `forcats`, `ggh4x`, `ragg`, `showtext`.
+### Figure 2
+* `ggplot2`, `dplyr`, `readxl`, `patchwork`, `ragg`, `showtext`.  
 
 ## 🔮 Figures
 
