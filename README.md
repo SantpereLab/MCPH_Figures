@@ -9,17 +9,19 @@ To reproduce the figures, you will need R version 4.6.2 installed along with the
 ### Figure 1
 * `ggplot2`, `dplyr`, `readxl`, `forcats`, `ggh4x`, `ragg`, `showtext`.
 ### Figure 2
-* `ggplot2`, `dplyr`, `readxl`, `patchwork`, `ragg`, `showtext`.  
-
+* `ggplot2`, `dplyr`, `readxl`, `ragg`, `showtext`, `patchwork`.  
 ## 🔮 Figures
-
-### Figure 1: MCPH Gene Functions (Binary Dot Plot)
+### Figure 1: MCPH Gene Functions (Binary Dot Plot) (`Script_fig1.R`)
 This script creates a binary dot plot to visualize which specific functional pathways each MCPH-associated gene is involved in, dynamically grouping them into two main blocks ("Cell Division-Related Processes" and "Other Functions & Pathways").
-
 <div align="center">
   <img src="https://github.com/user-attachments/assets/ceb2a311-947c-425c-9292-af93703fb328" width="600">
 </div>
 
+### Figure 2: HFV Density & Total Counts (`Script_fig2.R`)
+This script generates a two-panel slim bar plot comparing the amino acid-normalized density (`HFVs / aa (%)`) and the raw total count (`Total HFVs`) of High-Frequency Variants across all MCPH-associated genes, dynamically sorted by descending variant density.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/34759fd2-b483-4918-a4c9-f255598e5dba" width="600">
+</div>
 
 
 ### General Preview 
