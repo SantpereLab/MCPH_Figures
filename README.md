@@ -1,5 +1,8 @@
 # MCPH_Figures
-Repository containing scripts and publication-ready figures for the MCPH genes paper.
+This repository contains the complete R workflow and datasets required to reproduce the visual analyses of the MCPH-associated genes study. The pipeline generates publication-ready figures covering functional pathway involvement, structural brain trait associations, evolutionary metrics (dN/dS, adaptation rates), and High-Frequency Variant (HFV) profiling.
+## 🌌 Visual Abstract
+<img width="2000" height="1600" alt="Figures_Preview" src="https://github.com/user-attachments/assets/5c4b3c04-8d70-430c-8744-5988aec86da8" />
+
 ## 🧬 Repository Structure
 * **`Data/`**: Contains the input datasets for each generated figure.
 * **`Scripts/`**: R scripts used for data pre-processing, categorization, and plotting.
@@ -22,7 +25,3 @@ This script generates a two-panel slim bar plot comparing the amino acid-normali
 <div align="center">
   <img src="https://github.com/user-attachments/assets/34759fd2-b483-4918-a4c9-f255598e5dba" width="600">
 </div>
-
-
-### General Preview 
-<img width="2000" height="1600" alt="Figures_Preview" src="https://github.com/user-attachments/assets/5c4b3c04-8d70-430c-8744-5988aec86da8" />
