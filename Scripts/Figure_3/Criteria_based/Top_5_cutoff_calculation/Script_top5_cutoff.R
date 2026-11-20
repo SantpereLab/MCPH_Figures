@@ -18,7 +18,7 @@ library(readxl) # Excel spreadsheet import
 # Sheet E contains human-chimpanzee divergence counts, specifically providing the 
 # raw number of synonymous (DS) and non-synonymous (DN) substitutions per gene.
 
-sheet_E <- read_excel("../../../../../../../Data/Supplementary_data_enard.xlsx", sheet = "E")
+sheet_E <- read_excel("../../../../../../../Data/Top_5_cutoff_calculation/Supplementary_data_enard.xlsx", sheet = "E")
 
 # ------------------------------------------------------------------------------
 # STEP 3. APPLY HALDANE CORRECTION AND COMPUTE DN/DS
