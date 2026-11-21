@@ -12,7 +12,10 @@ To reproduce the figures, you will need R version 4.6.2 installed along with the
 ### Figure 1
 * `ggplot2`, `dplyr`, `readxl`, `forcats`, `ggh4x`, `ragg`, `showtext`.
 ### Figure 2
-* `ggplot2`, `dplyr`, `readxl`, `ragg`, `showtext`, `patchwork`.  
+* `ggplot2`, `dplyr`, `readxl`, `ragg`, `showtext`, `patchwork`.
+### Figure 3
+* `ggplot2`, `dplyr`, `readxl`, `ragg`, `showtext`, `patchwork`, `ggExtra`, `ggrepel`.
+  
 ## 🔮 Figures
 ### Figure 1: MCPH Gene Functions (Binary Dot Plot) (`Script_fig1.R`)
 This script creates a binary dot plot to visualize which specific functional pathways each MCPH-associated gene is involved in, dynamically grouping them into two main blocks ("Cell Division-Related Processes" and "Other Functions & Pathways").
@@ -25,3 +28,8 @@ This script generates a two-panel slim bar plot comparing the amino acid-normali
 <div align="center">
   <img src="https://github.com/user-attachments/assets/34759fd2-b483-4918-a4c9-f255598e5dba" width="600">
 </div>
+
+### Figure 3: Scatterplot & Violin Plot (`Script_fig3.R`)
+This script produces a two-panel composite plot:
+* Panel A: Scatterplot of divergence (dN/dS) vs. polymorphism (pN/pS) with marginal density distributions. Highlights genes under positive selection based on BUSTED, BS-REL, or empirical dN/dS thresholds.
+* Panel B: Violin plot displaying the Adaptation rate (Alpha) distribution, with staggered direct labeling for genes showing positive adaptation.
