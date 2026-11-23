@@ -15,6 +15,8 @@ To reproduce the figures, you will need R version 4.6.2 installed along with the
 * `ggplot2`, `dplyr`, `readxl`, `ragg`, `showtext`, `patchwork`.
 ### Figure 3
 * `ggplot2`, `dplyr`, `readxl`, `ragg`, `showtext`, `patchwork`, `ggExtra`, `ggrepel`.
+### Figure 4
+* `ggplot2`, `dplyr`, `readxl`, `ragg`, `showtext`, `patchwork`.
   
 ## 🔮 Figures
 ### Figure 1: MCPH Gene Functions (Binary Dot Plot) (`Script_fig1.R`)
