@@ -4,6 +4,8 @@ This repository contains the complete R workflow and datasets required to reprod
 <img width="2000" height="1600" alt="Figures_Preview" src="https://github.com/user-attachments/assets/5c4b3c04-8d70-430c-8744-5988aec86da8" />
 
 ## 🧬 Repository Structure
+> [!NOTE]
+> Scripts use relative paths and must be run from their own directory (in RStudio: **Session → Set Working Directory → To Source File Location**).
 * **`Data/`**: Contains the input datasets for each generated figure.
 * **`Scripts/`**: R scripts used for data pre-processing, categorization, and plotting.
 * **`Figures/`**: Final exported high-resolution figures (PDF for vector formats and PNG for web preview).
