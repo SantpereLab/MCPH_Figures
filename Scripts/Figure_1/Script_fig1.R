@@ -21,7 +21,7 @@ update_geom_defaults("text", list(family = "sans"))  # Enforce sans-serif font a
 
 # Load and Prepare the Data 
 
-data <- read_excel("./Data/Gene_Function.xlsx")      # Import the main dataset from the Excel file
+data <- read_excel("../../Data/Figure_1/Gene_Function.xlsx")      # Import the main dataset from the Excel file
 
 # Rename the last column to a code-friendly name (replace space and hyphen with underscores)
 
@@ -169,5 +169,5 @@ print(final_plot) # Render the plot to the graphics device
 # STEP 3: HIGH-QUALITY EXPORT (600 DPI & VECTORIAL)
 # ------------------------------------------------------------------------------
 
-ggsave("Figure_1.pdf", plot = final_plot, width = 125, height = 108, units = "mm", device = cairo_pdf) # Export as a scalable vector PDF using cairo_pdf
-ggsave("Figure_1.png", plot = final_plot, width = 125, height = 108, units = "mm", dpi = 600, device = agg_png) # Export as a high-resolution 600 DPI PNG using agg_png for crisp anti-aliasing
+ggsave("../../Figures/Figure_1.pdf", plot = final_plot, width = 125, height = 108, units = "mm", device = cairo_pdf) # Export as a scalable vector PDF using cairo_pdf
+ggsave("../../Figures/Figure_1.png", plot = final_plot, width = 125, height = 108, units = "mm", dpi = 600, device = agg_png) # Export as a high-resolution 600 DPI PNG using agg_png for crisp anti-aliasing
